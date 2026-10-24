@@ -24,7 +24,7 @@ const HERE = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const OUT = join(HERE, 'out')
 const PUBLIC = join(OUT, 'public')
 const STAGE = join(OUT, 'npm')
-const ACCOUNT = 'jo-sense-mi'
+const ACCOUNT = 'kaku-ing'
 
 const say = (line: string): void => { process.stdout.write(`  ${line}\n`) }
 const fail = (line: string): never => { process.stderr.write(`✗ ${line}\n`); process.exit(1) }

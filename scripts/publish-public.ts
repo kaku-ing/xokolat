@@ -2,7 +2,7 @@
 // THE PUBLIC REPO, MADE FROM THIS ONE — `npm run publish-public [-- --push] [-- --message "…"]`.
 //
 // This repo is private and primary: its history, its operator's machine setup and its deploy notes
-// stay here. github.com/jo-sense-mi/xokolat gets the committed tree of HEAD, minus what is listed
+// stay here. github.com/kaku-ing/xokolat gets the committed tree of HEAD, minus what is listed
 // below, as ONE new commit per publish, authored by the project's public name. The two histories
 // never share a commit, so nothing about this one's authorship travels.
 //
@@ -24,8 +24,8 @@ const PUBLIC = join(OUT, 'public')
 /** Where the public repo is pushed. An ssh host alias, so the key that pushes is the publishing
  *  account's and not the operator's — the push itself is public (a repo's event feed names who
  *  pushed), not only the commit. */
-const REMOTE = process.env['XOKOLAT_PUBLIC_REMOTE'] ?? 'git@github-jo-sense-mi:jo-sense-mi/xokolat.git'
-const AUTHOR = { name: 'jo-sense-mi', email: 'jo-sense-mi@users.noreply.github.com' }
+const REMOTE = process.env['XOKOLAT_PUBLIC_REMOTE'] ?? 'git@github-kaku-ing:kaku-ing/xokolat.git'
+const AUTHOR = { name: 'kaku-ing', email: 'kaku-ing@users.noreply.github.com' }
 
 /** Tracked here, and not part of the project anyone else gets: everything under `private/` — this
  *  machine's service setup, the operator's release and deploy notes, their own notes. ONE folder,

@@ -594,6 +594,13 @@ somebody has never seen should DO the first time they press ▶ on it. **Related
 brings what it needs) is the same instinct one level up — the argument there was that a pull should
 be big enough to work, announced rather than discovered.
 
+### 17 · Show what it makes — examples on xoko.lat
+
+The landing page explains xokolat in words only; a handful of real results — a sticker, a coloring
+page, a mascot, a song clip — would explain it faster than any sentence. Not now (2026-10-05): it
+needs results made for the purpose, since the operator's own work stays in the factory. When it
+happens it is site content, under `xokolat-web`, made with xokolat itself.
+
 ---
 
 ## The map — what a person can ask for, and what each is blocked on

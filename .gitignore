@@ -37,3 +37,6 @@ node_modules/
 # your own notes, not the app
 deploymentguide.md
 deployment-oracle-linux-readiness.md
+
+# archives dropped here to look at — never part of the project
+*.zip

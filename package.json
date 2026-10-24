@@ -2,11 +2,11 @@
   "name": "xokolat",
   "version": "0.2.0",
   "description": "A local content-generation app that hands you a finished artifact",
-  "author": "jo-sense-mi",
+  "author": "kaku-ing",
   "homepage": "https://xoko.lat",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jo-sense-mi/xokolat.git"
+    "url": "git+https://github.com/kaku-ing/xokolat.git"
   },
   "keywords": [
     "generative",
